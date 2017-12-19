@@ -201,6 +201,5 @@ code {
     color: #8c8484!important;
     font-size: .8em;
     font-weight: 400;
-    padding: .25em .5em .25em!important;
-    white-space: pre-wrap!important;
+    padding: .25em .5em .25em!important; 
 }
