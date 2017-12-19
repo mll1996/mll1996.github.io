@@ -143,10 +143,10 @@
 
 /*通用样式*/
 .is-post-tag {
-    background: rgba(0,0,0,0);
+    background: rgb(0, 0, 0);
     border-radius: 3px;
-    border: 1px solid #ff5300;
-    color: #ff5300;
+    border: 1px solid #000000;
+    color: #ffffff;
 }
 
 .is-invisible {
@@ -184,3 +184,4 @@
 .blur {
     filter: blur(10px);
 }
+ 
