@@ -1,3 +1,15 @@
+@font-face {
+	font-family: 'FZY3JW';
+	src: url('fonts');
+	src: url('fonts/FZY3JW.eot?') format('embedded-opentype'), url('fonts/FZY3JW.woff2?') format('woff2'), url('fonts/FZY3JW.woff?') format('woff'), 
+	url('fonts/FZY3JW.svg?') format('svg');
+	font-weight: normal;
+	font-style: normal;
+} 
+*{
+	font-family:  FZY3JW;
+}
+ 
 .debug {
     border: 1px solid red;
 }
@@ -183,3 +195,12 @@
  .post-box { 
         background-color: rgba(255,255,255,.3)!important;
     }
+    
+code {
+    background-color: #f5f5f5!important;
+    color: #8c8484!important;
+    font-size: .8em;
+    font-weight: 400;
+    padding: .25em .5em .25em!important;
+    white-space: pre-wrap!important;
+}
